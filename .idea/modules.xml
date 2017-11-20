@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://E:\NativeApp\Projects\axelbremerpset4\app\app.iml" filepath="E:\NativeApp\Projects\axelbremerpset4\app\app.iml" />
       <module fileurl="file://$PROJECT_DIR$/axelbremerpset4.iml" filepath="$PROJECT_DIR$/axelbremerpset4.iml" />
+      <module fileurl="file://E:\NativeApp\Projects\axelbremerpset4\axelbremerpset4.iml" filepath="E:\NativeApp\Projects\axelbremerpset4\axelbremerpset4.iml" />
     </modules>
   </component>
 </project>

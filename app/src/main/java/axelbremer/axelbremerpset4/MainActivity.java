@@ -41,6 +41,16 @@ public class MainActivity extends AppCompatActivity {
                 updateData();
             }
         });
+
+        todoListView.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
+            @Override
+            public boolean onItemLongClick(AdapterView<?> arg0, View arg1,
+                                           int pos, long id) {
+                db.delete(id);
+                updateData();
+                return true;
+            }
+        });
     }
 
     public void addItem(View view) {

@@ -18,6 +18,11 @@ public class TodoDatabase extends SQLiteOpenHelper {
         super(context, name, factory, version);
     }
 
+    public void delete(long id) {
+        SQLiteDatabase db = instance.getWritableDatabase();
+        db.delete("todos", "_id = " + id, new String[] {});
+    }
+
     public void insert(String title, int completed) {
         SQLiteDatabase db = instance.getWritableDatabase();
         ContentValues cv = new ContentValues();
