@@ -1,0 +1,6 @@
+exclude:
+- /app/src/androidTest/java/axelbremer/axelbremerpset4/ExampleInstrumentedTest.java
+- /app/src/test/java/axelbremer/axelbremerpset4/ExampleUnitTest.java
+component_depth: 1
+languages:
+- java
